@@ -1,0 +1,49 @@
+-----------Diseño dos columnas----------
+    <section class="home">
+
+        <div class="in-flex">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste harum impedit voluptas voluptatibus, quas iure
+            minus itaque necessitatibus illum numquam quam quod deserunt at? Ipsam eligendi aspernatur ratione aut
+            optio?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente iure facilis architecto repellat, perspiciatis veritatis deserunt quis nihil. Odio, cupiditate earum expedita impedit eos nisi ipsa eaque eveniet fuga.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptatibus doloribus assumenda repudiandae placeat, et ut fugit voluptate, vero minus ullam eius ipsa atque dignissimos maiores, quam dolore animi in?
+            Commodi, incidunt recusandae voluptate laborum fuga voluptatum, voluptas fugit sint natus quidem tempore nihil delectus cupiditate! Corporis ad nesciunt necessitatibus dignissimos, reiciendis excepturi aperiam ducimus iusto, culpa adipisci dolor cum!
+            Iure, sed pariatur enim error, similique sequi minus veritatis rem cumque, accusamus numquam! Magnam exercitationem vitae temporibus iste eos, ullam, id quisquam atque aliquid ut excepturi repellendus sint in aspernatur.
+            Ex, officiis. Distinctio, ut, facilis sit commodi dolorum esse obcaecati vel fuga quia suscipit sunt voluptas nobis, iure praesentium vitae. Pariatur maiores qui minus deserunt fugiat corporis totam eos ab.
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quibusdam harum beatae asperiores mollitia consectetur, laborum nobis qui possimus quaerat quas, unde, et nemo vel. Fugiat cum expedita asperiores delectus?
+            </div>
+        </div>
+        
+       
+        <div class="in-flex">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aspernatur reiciendis et provident
+                ullam! Quia nisi quod alias itaque quam excepturi accusamus iusto totam similique, eum sequi quidem, a
+                quaerat.</div>
+            <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et accusamus quidem nemo veniam nobis quis
+                possimus ex iure facilis eaque harum debitis deleniti ipsam corporis quos error, totam dignissimos
+                saepe.</div>
+        </div>
+    </section>
+    -----------styles-----------
+    
+.home{
+    display: flex;
+flex-wrap: wrap;
+
+}
+.in-flex{
+    flex:1;
+ min-width: 250px;
+}
+.in-flex:first-child{
+    flex:2;
+    padding: 25px;
+    background-color: #fff;
+margin: 20px;
+}  
+.in-flex div{
+    padding: 25px;
+    background-color: #fff;
+margin: 20px;
+}

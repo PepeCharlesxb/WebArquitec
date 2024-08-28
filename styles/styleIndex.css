@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dedede;
+    font-family: Century Gothic;
+    min-height: 100vh;
+    padding: 10px;
+}
+.bodyM > * {
+   
+    text-align: center;
+    font-weight: 500;
+}
+.bodyM{
+    display: grid;
+    gap: 20px;
+    grid-template: 
+    "header" 70px
+    "main" 200px
+    "late" 120px
+    "foot" 70px
+    ;
+
+    .main{
+        grid-area: "Main";
+        background-color: #88fe;
+
+    }
+    .mainheader{
+        grid-area: "header";
+        background-color: #5382B0;
+    }
+    .late{
+        grid-area: "late";
+        background-color: #486E98;
+    }
+    .foot{
+        grid-area: "foot";
+        background-color: #7F0200;
+    }
+
+    @media (min-width:944px) {
+        grid-area: 
+        "header header header" 70px
+        "main main late" 100px
+        "foot foot foot" 80px/
+        100px auto 200px        
+        
+        ;
+    }
+    
+
+/*#5382B0
+#486E98
+#7F0200
+*/
+
+}
